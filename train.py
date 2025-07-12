@@ -6,7 +6,7 @@ from tqdm import tqdm
 from pathlib import Path
 from model import build_transformer
 from dataset import get_ds
-from config import latest_weights_file_path, get_weights_file_path
+from dataset import latest_weights_file_path, get_weights_file_path
 from validate import run_validation
 
 def train_model(config):

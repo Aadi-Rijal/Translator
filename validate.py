@@ -70,8 +70,8 @@ def run_validation(model, validation_ds, tokenizer_src, tokenizer_tgt, max_len, 
     print('validation BLEU: ', bleu, global_step)
 
 
-def greedy_decode(model, source, source_mask, tokenizer_src, tokenizer_tgt, max_len, device):
-    sos_idx = tokenizer_tgt.token_to_id('[EN]') #NE
+def greedy_decode(model,token_lang_src, source, source_mask, tokenizer_src, tokenizer_tgt, max_len, device):
+    sos_idx = tokenizer_tgt.token_to_id(f'[{token_lang_src}]') #NE
     eos_idx = tokenizer_tgt.token_to_id('[EOS]')
 
     # Precompute the encoder output and reuse it for every step
@@ -87,7 +87,7 @@ def greedy_decode(model, source, source_mask, tokenizer_src, tokenizer_tgt, max_
 
         # calculate output
         out = model.decode(encoder_output, source_mask, decoder_input, decoder_mask)
-
+        print(out)
         # get next token
         prob = model.project(out[:, -1])
         _, next_word = torch.max(prob, dim=1)

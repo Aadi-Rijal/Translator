@@ -153,7 +153,8 @@ st.markdown("""
 def load_model():
     """Load the transformer model and return model, device, seq_len, and config"""
     try:
-        from config import get_config, latest_weights_file_path 
+        from config import get_config
+        #from dataset import latest_weights_file_path
         from model import build_transformer
         
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -205,7 +206,7 @@ def get_tokenizers(src_lang, dest_lang, _config):
 def translate_text(text, model, device, seq_len, config):
     """Translate Nepali text to English"""
     try:
-        from model import greedy_decode
+        from validate import greedy_decode
         
         src_lang = 'np'
         dest_lang = 'en'
