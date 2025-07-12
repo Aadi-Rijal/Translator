@@ -7,5 +7,4 @@ tokenizers
 datasets
 tqdm
 tensorboard
-pathlib
 huggingface_hub
