@@ -1,0 +1,11 @@
+streamlit
+torch
+torchvision
+torchtext
+torchmetrics
+tokenizers
+datasets
+tqdm
+tensorboard
+pathlib
+huggingface_hub
