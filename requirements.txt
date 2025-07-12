@@ -8,3 +8,4 @@ datasets
 tqdm
 tensorboard
 huggingface_hub
+sentencepiece
