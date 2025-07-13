@@ -9,4 +9,3 @@ datasets
 tqdm
 tensorboard
 huggingface_hub
-sentencepiece==0.1.99
