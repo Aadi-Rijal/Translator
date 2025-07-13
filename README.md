@@ -42,7 +42,7 @@ The entire architecture is built using only core Python libraries and PyTorch.
 ---
 
 ## 🧑‍💻 Author and 🤝 Contributing
-- **Aditya Rijal** Aka **Aadi-Rijal**
-- **Aayush Regmi** Aka **AayusR**
-- **Awiskar Pokhrel** Aka **awiskar3**
 
+- [**Aditya Rijal**](https://github.com/Aadi-Rijal)
+- [**Aayush Regmi**](https://github.com/AayusR)
+- [**Awiskar Pokhrel**](https://github.com/awiskar3)
