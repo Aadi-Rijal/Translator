@@ -1,11 +1,5 @@
-pip>=24.0
 streamlit
-torch
-torchvision
-torchtext
-torchmetrics
 tokenizers
-datasets
-tqdm
-tensorboard
 huggingface_hub
+torch
+dataset

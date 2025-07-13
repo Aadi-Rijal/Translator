@@ -1,6 +1,4 @@
 import streamlit as st
-import os
-import sys
 from pathlib import Path
 from tokenizers import Tokenizer
 from huggingface_hub import hf_hub_download
