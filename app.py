@@ -280,8 +280,8 @@ def main():
     # Main translator container
     with st.container():
         direction_options = {
-            "🇳🇵 → 🇪🇳": "np_to_en",
-            "🇪🇳 → 🇳🇵": "en_to_np"
+            "🇳🇵 → 🇺🇸": "np_to_en",
+            "🇺🇸 → 🇳🇵": "en_to_np"
         }
 
         selected = st.selectbox("",
