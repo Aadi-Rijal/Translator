@@ -3,4 +3,4 @@ tokenizers
 huggingface_hub
 torch
 torchmetrics
-dataset
+datasets
