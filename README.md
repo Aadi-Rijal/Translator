@@ -1,11 +1,11 @@
-# 🌐 Translator
+#  Translator
 
 A powerful and modular Neural Machine Translation (NMT) system built completely from scratch using the **Transformer architecture**. This project demonstrates how deep learning and attention mechanisms can be applied to translate text between human languages.
 It is the part of MINOR PROJECT , Computer Engineering , 3rd year, IOE Pulchowk.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - ✅ Custom-built Transformer model (no pre-trained model used)
 - ✅ Encoder–Decoder attention mechanism
@@ -17,7 +17,7 @@ It is the part of MINOR PROJECT , Computer Engineering , 3rd year, IOE Pulchowk.
 
 ---
 
-## 🧠 Architecture Overview
+##  Architecture Overview
 
 This project is inspired by the groundbreaking paper:  
 📄 *"Attention Is All You Need"* – Vaswani et al., 2017
@@ -35,13 +35,13 @@ The entire architecture is built using only core Python libraries and PyTorch.
 
 ---
 
-## 📚 References
+##  References
 - Vaswani et al. (2017), "Attention Is All You Need"
 - HuggingFace Datasets
 
 ---
 
-## 🧑‍💻 Authors and 🤝 Contributors
+##  Authors and  Contributors
 
 - **Aditya Rijal** – [@Aadi-Rijal](https://github.com/Aadi-Rijal)
 - **Aayush Regmi** – [@AayusR](https://github.com/AayusR)
